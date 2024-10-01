@@ -59,13 +59,14 @@ var swiper = new Swiper('.swiper-container.app-screen', {
     effect: 'coverflow',
     loop: true,
    
+    autoplaySpeed: 3000,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    
     autoplay: {
         delay: 5000,
         disableOnInteraction: false,
     },
-    autoplaySpeed: 3000,
-    centeredSlides: true,
-    slidesPerView: 'auto',
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
